@@ -1,10 +1,10 @@
 package code
 
 import (
-	"github.com/rob-woerner/protos/common"
-	"github.com/rob-woerner/protos/messages"
+	common "github.com/rob-woerner/protos/common"
+	messages "github.com/rob-woerner/protos/messages"
 )
 
-func MyFunc() messages.MyMessage {
-	return messages.MyMessage { state: common.MyState_Invalid }
+func MyFunc() messages.MyRequest {
+	return messages.MyRequest { State: common.MyState_LOGGED_OUT }
 }
