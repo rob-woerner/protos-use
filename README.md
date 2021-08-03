@@ -10,7 +10,7 @@ To be a successful solution, you need to successfully run in protos:<br/>
 &nbsp;&nbsp;&nbsp;go build ./...<br/>
 
 and run in protos-use:<br/>
-&nbsp;&nbsp;&nbsp;go mod tidy<br/>
+&nbsp;&nbsp;&nbsp;go get all<br/>
 &nbsp;&nbsp;&nbsp;go build ./...<br/>
 
 
