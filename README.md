@@ -6,7 +6,6 @@ If you find a solution that allows you to put the proto files in a subdirectory,
 
 To be a successful solution, you need to successfully run in protos:<br/>
 &nbsp;&nbsp;&nbsp;make<br/>
-&nbsp;&nbsp;&nbsp;go mod tidy<br/>
 &nbsp;&nbsp;&nbsp;go build ./...<br/>
 
 and run in protos-use:<br/>
